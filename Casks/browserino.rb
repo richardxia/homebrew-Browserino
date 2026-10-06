@@ -8,7 +8,7 @@ cask "browserino" do
   homepage "https://github.com/AlexStrNik/Browserino"
 
   auto_updates false
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Browserino.app"
 
